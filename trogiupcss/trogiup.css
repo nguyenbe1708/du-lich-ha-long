@@ -1,0 +1,22 @@
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+.help {
+    background-color: #ccffff;
+}
+label {
+    font-size: 130%;
+    color: white;
+}
+input {
+    width: 50%;
+   
+} 
+textarea {
+    width: 50%;
+}
+.help h1 {
+    color: white;
+}
