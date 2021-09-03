@@ -10,8 +10,16 @@
 .image0 {
     padding: 15px 0;
 }
+.image p {
+  font-size: 130%;
+}
 .image a {
-    font-size: 100%;
+    font-size: 130%;
+    color: black;
+}
+.image h1 {
+  position: relative;
+  background-color: #22a7d3a2;
 }
 * {
     box-sizing: border-box;
@@ -35,6 +43,11 @@
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+
+   .image h1 {
+    font-size: 30px;
+  }
+
 }
 @media only screen and (max-width:992px) {
     /* For tablet: */
@@ -54,6 +67,13 @@
    .image3 {
        padding-top: 30px;
    }
+   .image h1 {
+    font-size: 27px;
+  }
+
+  .image img {
+    padding: 30px 0 30px 0;
+  }
 
   }
   
@@ -75,6 +95,13 @@
   
     .image2 {
         padding-top: 30px;
+    }
+    .image h1 {
+      font-size: 21px;
+    }
+
+    .image img {
+      padding: 20px 0 20px 0;
     }
 
   }
