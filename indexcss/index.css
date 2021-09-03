@@ -1,9 +1,6 @@
 .intro p {
   background-color: #22a7d3a2;
 }
-.image p {
-  background-color: #22a7d3a2;
-}
 .background-image {
   position: fixed;
   top: 0;
@@ -32,25 +29,41 @@ a {
   padding: 30px 0;
   font-size: 150%;
 }
-
-.image p {
+.imagemenu h1 {
+  position: relative;
+  background-color: #22a7d3a2;
+  
+}
+.imagemenu p {
   font-size: 150%;
   color: black;
+  background-color: #22a7d3a2;
 }
-.image a {
+.imagemenu a {
   color: black;
   font-size: 100%;
+}
+.imagemenu img {
+  padding-left: 0;
+  padding-right: 0;
+}
+.imagemenu .img0 {
+  margin: 30px 0 30px 0;
 }
 .imagesource {
   color: black;
-  font-size: 100%;
+  
 }
 .footer {
   
   color: black;
 }
+.footer ul {
+  padding: 0;
+}
 .footer a {
   color: black;
+  font-size: 100%;
 }
 .footercontent {  
   font-size: 115%;
@@ -65,11 +78,12 @@ label {
 
 * {
     box-sizing: border-box;
-    margin: 0px; 
-    padding:0px;
+    
   }
 [class*="col-"] {
     width: 100%;
+    margin: 0px; 
+    padding:0px;
   }
 @media only screen and (max-width:1200px) {
     /* For small laptops: */
@@ -117,10 +131,10 @@ label {
     
     font-size: 70%;
   }
-  .pinh1 {
-    font-size: 160%;
+  .imagemenu h1 {
+    font-size: 30px;
   }
-  .image p {
+  .imagemenu p {
     font-size: 90%;
   }
 }
@@ -141,13 +155,19 @@ label {
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 
-  
+  .social img {
+    margin-left: 35px;
+  }
   a {
     font-size: 53%;
   }
  
   p {
     font-size: 60%;
+  }
+
+  .imagemenu h1 {
+    font-size: 26px;
   }
   .introcontent {
     font-size: 80%;
@@ -170,11 +190,15 @@ label {
   .col-12 {width: 100%;}
 
 
+  
   a {
     font-size: 40%;
   }
   .introcontent {
     font-size: 60%;
+  }
+  .imagemenu h1 {
+    font-size: 20px;
   }
   p {
     font-size: 50%;
@@ -196,6 +220,7 @@ label {
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 
+  
   a {
     font-size: 35%;
   }
@@ -208,3 +233,11 @@ label {
    
 
 }  
+
+.social {
+  padding-left: 26%;
+}
+
+.social img {
+  width: 80px;
+}
